@@ -19,7 +19,7 @@ def browser(request):
     drvr.quit()
 
 
-@fixture(params=load_test_data(data_path))
-def tv_brand(request):
-    data = request.param
-    return data
+# @fixture(params=load_test_data(data_path))
+# def tv_brand(request):
+#     data = request.param
+#     return data
